@@ -1,15 +1,31 @@
 @tailwind base;
 
+html {
+  color: #575757;
+}
+
+html, body, #___gatsby {
+  height: 100%;
+}
+
 h1 {
-  @apply mb-10
+  @apply mb-3 text-xl font-bold
+}
+
+h2 {
+  @apply mb-3 text-lg font-bold
 }
 
 h3 {
-  @apply mb-6
+  @apply mb-3 font-bold
 }
 
 p {
-  @apply mb-4
+  @apply mb-3
+}
+
+a {
+  @apply text-blue-600 underline;
 }
 
 @tailwind components;

@@ -7,18 +7,18 @@ export default (props) => {
 
   return (
     <Layout>
-      { posts.map(({ node }) => {
-          return (
-            <div key={node.fields.slug}>
-              <h3>
-                <Link to={node.fields.slug}>
-                  { node.frontmatter.title }
-                </Link>
-              </h3>
-            </div>
-          )
-        })
-      }
+      <h3>Writing</h3>
+
+      <ul>
+        { posts.map(({ node }) => (
+            <li key={node.fields.slug}>
+              <Link to={node.fields.slug}>
+                { node.frontmatter.title }
+              </Link>
+            </li>
+          ))
+        }
+      </ul>
     </Layout>
   )
 }
