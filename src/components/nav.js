@@ -1,19 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
+import classnames from "classnames"
 
 export default ({ siteTitle }) => (
   <header>
-    <Link to="/" className="block text-xl pb-5">
+    <NavLink to="/" className="text-xl pb-5">
       Tony D'Addeo
-    </Link>
-    <Link to="/about" className="block">
+    </NavLink>
+    <NavLink to="/about">
       About me
-    </Link>
-    <Link to="/reading-lists" className="block">
+    </NavLink>
+    <NavLink to="/reading-lists">
       Reading lists
-    </Link>
-    <Link to="/blog" className="block">
+    </NavLink>
+    <NavLink to="/blog">
       Blog
-    </Link>
+    </NavLink>
   </header>
 )
+
+const NavLink = ({ to, className, children }) =>
+  <Link to={to} className={classnames('block', 'visited:text-blue-600', className)}>
+    {children}
+  </Link>

@@ -29,19 +29,14 @@ export default () =>
 
     <p>
       I attended the University of Texas where I studied computer science in
-      the{' '}<a href="https://www.cs.utexas.edu/turing-scholars">Turing
-      Scholars Program</a>{' '}and played football (walk-on, not scholarship). As
+      the Turing Scholars Program and <a href="/football">played football (walk-on, not scholarship)</a>. As
       sometimes happen to people in college, I spent most of my spare time on
       social activities or reading books completely unrelated to my field
       (mostly classic lit and money). Looking back I do wish I would've
       realized how interesting my actual studies were and invested more time in
       learning with my peers and professors.
     </p>
-
-    <p>
-      <Link to="#">Learn more about my time playing football at UT</Link>
-    </p>
-
+    
     <p>
       During college I interned at Intel as a software developer. The work mostly
       consisted of writing small Perl and Bash scripts. It was great to make some

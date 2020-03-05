@@ -11,10 +11,14 @@ export default (props) => {
 
       <ul>
         { posts.map(({ node }) => (
-            <li key={node.fields.slug}>
+            <li key={node.fields.slug} className="py-1">
               <Link to={node.fields.slug}>
-                { node.frontmatter.title }
+                {node.frontmatter.title}
               </Link>
+
+              <span className="ml-3 text-sm text-gray-600">
+                {node.frontmatter.date}
+              </span>
             </li>
           ))
         }
@@ -33,7 +37,7 @@ export const query = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMMM D, YYYY")
             title
           }
         }
