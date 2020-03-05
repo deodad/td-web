@@ -6,9 +6,6 @@ export default ({ siteTitle }) => (
     <Link to="/" className="block text-lg pb-5">
       Tony D'Addeo
     </Link>
-    <Link to="/" className="block"> 
-      Home
-    </Link>
     <Link to="/about" className="block">
       About me
     </Link>

@@ -7,7 +7,11 @@ export default (props) => {
 
   return (
     <Layout>
-      <h3>Writing</h3>
+      <h1>Welcome!</h1>
+
+      <p>
+        I'm Tony D'Addeo.
+      </p>
 
       <ul>
         { posts.map(({ node }) => (
