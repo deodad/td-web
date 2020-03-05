@@ -16,6 +16,9 @@ export default ({ siteTitle }) => (
     <NavLink to="/blog">
       Blog
     </NavLink>
+    <NavLink to="/acknowledgements">
+      Acknowledgements
+    </NavLink>
   </header>
 )
 

@@ -10,4 +10,6 @@ export default () =>
       I'm Tony D'Addeo. This is my website. It's a place I put interesting things
       I've done or encountered.
     </p>
+
+    <h2>What am I doing now?</h2>
   </Layout>

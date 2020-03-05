@@ -1,6 +1,6 @@
 ---
 title: "Texas Football"
-date: "2019-12-31T18:56:23"
+date: "2020-03-05"
 ---
 
 - last high school game, never playing again
@@ -17,7 +17,7 @@ school thinking I'd never play football again. It was a big part of my life and
 thus a big part of my identity and knowing it was over had my stomach in knots.
 I was a talented player but not enough to warrant a scholarship. One (of the
 many) drawbacks to the game of football is it's not really practical to keep
-playing it recreationally as an adult. 
+playing it recreationally as an adult.
 
 My fall semester at UT I attended the football games as a student, something I
 had been doing with my dad since I was a boy. Seeing the players run out onto
@@ -43,4 +43,4 @@ special forces but it was more than I've experienced in any job since. Coaches,
 players, front office, medical and equipment staff coordinating.
 
 Being on the football team was a status symbol at the university. Though I was a
-lowly walk-on, I still 
+lowly walk-on, I still

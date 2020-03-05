@@ -1,6 +1,6 @@
 ---
 title: "How To Learn About Wine"
-date: "2019-12-31T18:56:23"
+date: "2019-09-12"
 ---
 
 Wine is an incredible thing but the culture around it can suck. I was fortunate to have some exposure to it early in life working when I worked at a wine company but it wasn't until later that I actually started to learn more about it.
