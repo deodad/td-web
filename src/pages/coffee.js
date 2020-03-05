@@ -32,26 +32,25 @@ export default () => {
           }
            <tr>
              <td className="text-center">
-                <input 
-                  type="number" 
+                <input
+                  type="number"
                   className="w-16 text-center"
                   value={value}
-                  onChange={handleChange} 
+                  onChange={handleChange}
                 />
              </td>
              <td className="text-center">{water(value)}</td>
              <td className="text-center">{total(value)}</td>
            </tr>
-        </tbody>  
+        </tbody>
       </table>
 
-      <h3 className="mt-10">Controls</h3>
-      <div>
-        ratio = <input 
-                  type="number" 
-                  className="w-16"
-                  value={ratio} 
-                  onChange={e => setRatio(parseInt(e.target.value))} 
+      <div className="mt-10">
+        ratio = <input
+                  type="number"
+                  className="w-12"
+                  value={ratio}
+                  onChange={e => setRatio(parseInt(e.target.value))}
                 />
       </div>
       <div>

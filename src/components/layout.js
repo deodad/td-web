@@ -3,11 +3,11 @@ import Nav from "./nav"
 
 export default ({ children }) => {
   return (
-    <div className="flex p-10">
-      <div className="flex-none mr-6">
+    <div className="flex p-8 font-sans">
+      <div className="flex-none mr-12">
         <Nav />
       </div>
-      <div className="flex-auto max-w-screen-xl px-6">
+      <div className="flex-auto max-w-screen-xl">
         <main>{children}</main>
       </div>
     </div>

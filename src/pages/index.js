@@ -1,47 +1,13 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 
-export default (props) => {
-  const posts = props.data.allMarkdownRemark.edges
+export default () =>
+  <Layout>
+    <h1>Welcome!</h1>
 
-  return (
-    <Layout>
-      <h1>Welcome!</h1>
-
-      <p>
-        I'm Tony D'Addeo.
-      </p>
-
-      <ul>
-        { posts.map(({ node }) => (
-            <li key={node.fields.slug}>
-              <Link to={node.fields.slug}>
-                { node.frontmatter.title }
-              </Link>
-            </li>
-          ))
-        }
-      </ul>
-    </Layout>
-  )
-}
-
-export const query = graphql`
-  query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-          }
-        }
-      }
-    }
-  }
-`
+    <p>
+      I'm Tony D'Addeo. This is my website. It's a place I put interesting things
+      I've done or encountered.
+    </p>
+  </Layout>
