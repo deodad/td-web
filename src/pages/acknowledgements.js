@@ -15,16 +15,16 @@ export default () =>
         <a href="https://www.perell.com/">David Perrel</a> for his posts about writing online.
       </li>
       <li className="pb-1">
-        <a href="https://tomcritchlow.com/">Tom Critchlow</a> for his collapsible outline approach.
+        <a href="https://tomcritchlow.com/">Tom Critchlow</a> for his collapsible outline approach to organizing content.
       </li>
       <li className="pb-1">
         <a href="https://davidklaing.com/">David Klaing</a> for his home page which served as great example in many ways.
       </li>
       <li className="pb-1">
-        <a href="https://www.ribbonfarm.com/about/">Venkatesh Rao</a> for his domestic cozy aesthetic concept.
+        <a href="https://www.ribbonfarm.com/about/">Venkatesh Rao</a> for his domestic cozy concept, a fun aesthetic to design to. 
       </li>
       <li className="pb-1">
-        <a href="https://simonsarris.com/">Simon Sarris</a> for his highly aesthetic Simeville. 
+        <a href="https://simonsarris.com/">Simon Sarris</a> for his highly aesthetic Simeville.
       </li>
     </ul>
   </Layout>

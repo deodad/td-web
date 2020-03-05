@@ -32,5 +32,9 @@ a:visited {
   @apply text-purple-600;
 }
 
+details[open] {
+  background: #f7f4da;
+}
+
 @tailwind components;
 @tailwind utilities;
