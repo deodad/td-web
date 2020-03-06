@@ -32,6 +32,10 @@ a {
   @apply text-blue-600 underline;
 }
 
+li {
+  @apply mb-1;
+}
+
 a:visited {
   @apply text-purple-600;
 }
