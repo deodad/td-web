@@ -26,9 +26,8 @@ export default () => (
           .
         </p>
         <p>
-          The more I've seen about the field the more interested I am. I'm even
-          considering if I should get a Masters in Architecture and move into
-          the field entirely.
+          The design of our homes, buildings, towns and cities is relevant to
+          questions of economy, health, sustainability and aesthetics.
         </p>
         <PersistentDetails
           id="059bf2e57c9b"
@@ -149,9 +148,7 @@ const PersistentDetails = ({ id, summary, children }) => {
   return (
     <details onToggle={handleToggle} open={open}>
       <summary>{summary}</summary>
-      <div>
-        {children}
-      </div>
+      <div>{children}</div>
     </details>
   )
 }
