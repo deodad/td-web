@@ -37,16 +37,16 @@ Wine can be expensive. And because it mostly comes in 750 ml bottles and doesn't
 
 ### Learn some jargon.
 
-No one outside a field enjoys hearing field-specific jargon, but learning it is inevitable. Here's a few:
+No one outside a field enjoys hearing field-specific jargon, but learning it is inevitable. Here's an example:
 
-*Terrior*, in french "land", refers to all the environmental factors that influence a specific crop. These factors include climate, soil composition, geological features and even farming practices. Together these form a certain "character" that will be expressed by the wine.
+*Terrior*, in french "land", refers to all the environmental factors that influence a specific crop. These factors include climate, soil composition, geological features and even farming practices. Together these form a certain "character" that will be expressed by the wine. The concept of terrior has been adopted in the understanding of other artisnal crops as well such as coffee, cocoa, hops, agave, cannabis and tea.
 
-The concept of terrior has been adopted in the understanding of other artisnal crops as well such as coffee, cocoa, hops, agave, cannabis and tea.
-
-### Have fun.
-
-Drinking wine is fun but you'll ruin it for yourself and those around you if you start to taking yourself too seriously. Enjoy the wine but enjoy drinking it with your friends more.
+In order to not look like an ass try not to use it unless the people you are with are familiar.
 
 ### Drink what you like.
 
 It's easy to fool yourself into always drinking "better" (read: more expensive) wines. Exploration is great but when you find a great value you love it's time to exploit. This will ensure you drink more wine that you love and also keep you off the treadmill of hedonism and full of gratitude for the fact you're drinking better wine than the kings of yore.
+
+### Have fun.
+
+Drinking wine is fun but you'll ruin it for yourself and those around you if you start to taking yourself too seriously. Enjoy the wine but enjoy drinking it with your friends more.

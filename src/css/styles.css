@@ -8,6 +8,10 @@ html, body, #___gatsby {
   height: 100%;
 }
 
+section:not(:first-child) {
+  @apply mt-8;
+}
+
 h1 {
   @apply mb-3 text-xl font-bold;
 }

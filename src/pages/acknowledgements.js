@@ -12,7 +12,10 @@ export default () =>
 
     <ul>
       <li className="pb-1">
-        <a href="https://www.perell.com/">David Perrel</a> for his posts about writing online.
+        <a href="https://www.perell.com/">David Perrel</a> for his posts and guides on writing online.
+      </li>
+      <li className="pb-1">
+        <a href="https://sivers.org/">Derek Sivers</a> for his "now page" and stellar personal site.
       </li>
       <li className="pb-1">
         <a href="https://tomcritchlow.com/">Tom Critchlow</a> for his collapsible outline approach to organizing content.
@@ -21,7 +24,7 @@ export default () =>
         <a href="https://davidklaing.com/">David Klaing</a> for his home page which served as great example in many ways.
       </li>
       <li className="pb-1">
-        <a href="https://www.ribbonfarm.com/about/">Venkatesh Rao</a> for his domestic cozy concept, a fun aesthetic to design to. 
+        <a href="https://www.ribbonfarm.com/about/">Venkatesh Rao</a> for his domestic cozy concept, a fun aesthetic to design to.
       </li>
       <li className="pb-1">
         <a href="https://simonsarris.com/">Simon Sarris</a> for his highly aesthetic Simeville.
