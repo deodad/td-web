@@ -12,8 +12,9 @@ export default () => (
       I live in Austin, Texas with my wife and two chocolate labs. I played
       football in college, served as a CEO, and founded a company, a
       run-of-the-mill jack of all trades and master of none. Some things I like
-      doing are cooking, reading, drinking wine, playing chess, dancing tango,
-      lifting weights, playing sports, and writing software.
+      doing are cooking, reading, <Link to="/wine">drinking wine</Link>, playing
+      chess, dancing tango, lifting weights, playing sports, and writing
+      software.
     </p>
 
     <p>
@@ -76,12 +77,16 @@ export default () => (
     <p>
       At the start of 2018 I left Personal Wine to co-found a company with three
       individuals I had a lot of respect for. We succeeded in getting the
-      company off the ground but after a year and half decided to put it on ice for a handful of reasons which I'll write about soon. It wasn't the big exit every entreprenuer dreams of but it was a fun and
-      tremendously valuable experience.
+      company off the ground but after a year and half decided to put it on ice
+      for a handful of reasons which I'll write about soon. It wasn't the big
+      exit every entreprenuer dreams of but it was a fun and tremendously
+      valuable experience.
     </p>
 
     <p>
-      Since then I've been on a bit of sabbatical trying to figure out exactly what I want to do next. In the meantime I've doing some independent consulting around technology, data, and business.
+      Since then I've been on a bit of sabbatical trying to figure out exactly
+      what I want to do next. In the meantime I've doing some independent
+      consulting around technology, data, and business.
     </p>
 
     <p className="hidden">
