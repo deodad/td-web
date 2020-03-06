@@ -147,9 +147,11 @@ const PersistentDetails = ({ id, summary, children }) => {
   useLayoutEffect(() => setOpen(localStorage.getItem(key) === "true"))
 
   return (
-    <details onToggle={handleToggle} open={open} className="mb-2 px-3 py-2">
-      <summary className="mb-2 cursor-pointer">{summary}</summary>
-      {children}
+    <details onToggle={handleToggle} open={open}>
+      <summary>{summary}</summary>
+      <div>
+        {children}
+      </div>
     </details>
   )
 }

@@ -40,8 +40,17 @@ a:visited {
   @apply text-purple-600;
 }
 
-details[open] {
+details {
+  @apply mb-3 px-3 py-2;
   background: #f7f4da;
+}
+
+details details {
+  @apply mb-0;
+}
+
+details[open] summary {
+  @apply mb-2;
 }
 
 @tailwind components;

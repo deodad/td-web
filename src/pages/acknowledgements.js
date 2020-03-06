@@ -36,11 +36,7 @@ export default () => (
       </li>
       <li>
         <a href="https://www.ribbonfarm.com/about/">Venkatesh Rao</a> for his
-        domestic cozy concept, a fun aesthetic to design to.
-      </li>
-      <li>
-        <a href="https://simonsarris.com/">Simon Sarris</a> for his highly
-        aesthetic Simeville.
+        domestic cozy concept, an aesthetic trend I've enjoyed following and designing to.
       </li>
     </ul>
   </Layout>
