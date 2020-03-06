@@ -24,6 +24,10 @@ h3 {
   @apply mb-3 font-bold;
 }
 
+p + h1, p + h2, p + h3 {
+  @apply mt-6;
+}
+
 p {
   @apply mb-3;
 }
