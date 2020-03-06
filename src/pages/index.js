@@ -87,13 +87,13 @@ export default () => (
         </p>
 
         <p>
-          I always look forward to that point when things go from a labeled
-          activity (i.e. dinner party) to part of the fabric of life. Wife and I
-          have reached this point with shared meals at home with friends. It's
-          the perfect barbell strategy: one night a week we spend a couple hours
-          cooking an grand meal more elaborate than we would do for just the two
-          of us and then a few others we just show up with a bottle of wine and
-          enjoy being served.
+          It feels great when things shift in life from labeled activities (i.e.
+          dinner party) to part of the fabric of life. Wife and I have reached
+          this point with shared meals at home with friends. It's the perfect
+          barbell strategy: one night a week we spend a couple hours cooking an
+          grand meal more elaborate than we would do for just the two of us and
+          then a few others we just show up with a bottle of wine and enjoy
+          being served.
         </p>
 
         <p>
