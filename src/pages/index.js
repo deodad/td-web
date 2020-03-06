@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useLayoutEffect } from "react"
 import Layout from "../components/layout"
 
 export default () =>
@@ -94,7 +94,7 @@ export default () =>
 
       <PersistentDetails
         id="64409bed0fc9"
-        summary="A lot of cooking"
+        summary="Cooking for myself and others"
       >
         <p>
           There was a time when I was up on the Austin restaurant scene but since I haven't
@@ -132,13 +132,15 @@ export default () =>
 
 const PersistentDetails = ({ id, summary, children }) => {
   const key = `details-${id}`
-  const [open, setOpen] = useState(localStorage.getItem(key) === 'true')
+  const [open, setOpen] = useState(false)
 
   const handleToggle = (e) => {
     e.stopPropagation()
     setOpen(e.target.open)
     localStorage.setItem(key, e.target.open)
   }
+
+  useLayoutEffect(() => setOpen(localStorage.getItem(key) === 'true'))
 
   return (
     <details
