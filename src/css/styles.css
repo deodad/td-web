@@ -53,6 +53,10 @@ details details {
   @apply mb-0;
 }
 
+summary {
+  @apply cursor-pointer;
+}
+
 details[open] summary {
   @apply mb-2;
 }
