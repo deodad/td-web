@@ -22,7 +22,24 @@ module.exports = {
         path: path.join(__dirname, 'src', 'posts')
       }
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-classes',
+            options: {
+              classMap: {
+                'list[ordered=true]': 'list-decimal list-inside',
+                'list[ordered=false]': 'list-disc list-inside',
+                'listItem': 'mb-3',
+              }
+            }
+          },
+          'gatsby-plugin-catch-links'
+        ]
+      }
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-postcss'

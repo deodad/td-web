@@ -143,7 +143,7 @@ const PersistentDetails = ({ id, summary, children }) => {
     localStorage.setItem(key, e.target.open)
   }
 
-  useLayoutEffect(() => setOpen(localStorage.getItem(key) === "true"), [])
+  useLayoutEffect(() => setOpen(localStorage.getItem(key) === "true"), [key])
 
   return (
     <details onToggle={handleToggle} open={open}>
