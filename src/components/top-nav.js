@@ -13,16 +13,19 @@ export default () => {
   )
 
   return (
-    <header className="flex flex-between items-center md:hidden">
-      <NavLink to="/" className="text-xl flex-auto">
-        Tony D'Addeo
-      </NavLink>
-      <button
-        className="fixed right-0 block w-8 h-6 bg-yellow-300 rounded-l-sm shadow"
-        onClick={() => setIsOpen(true)}
-      ></button>
+    <>
+      <header className="flex flex-between items-center md:hidden">
+        <NavLink to="/" className="text-xl flex-none">
+          Tony D'Addeo
+        </NavLink>
+        <button
+          className="fixed right-0 block w-10 h-8 bg-yellow-300 rounded-l-sm shadow"
+          onClick={() => setIsOpen(true)}
+        ></button>
+      </header>
+
       <SideNav open={isOpen} close={() => setIsOpen(false)} />
-    </header>
+    </>
   )
 }
 
