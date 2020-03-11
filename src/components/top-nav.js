@@ -35,7 +35,7 @@ const SideNav = ({ open, close }) => {
   return (
     <div className={classnames("fixed inset-0 flex", openClass)}>
       <button className="flex-none w-1/3" onClick={close}></button>
-      <div className="flex-none w-2/3 bg-white p-4 shadow">
+      <div className="flex-none w-2/3 bg-white p-4 shadow text-lg">
         <SideNavLink to="/about">About me</SideNavLink>
         <SideNavLink to="/reading-lists">Reading lists</SideNavLink>
         <SideNavLink to="/blog">Blog</SideNavLink>
@@ -45,4 +45,4 @@ const SideNav = ({ open, close }) => {
   )
 }
 
-const SideNavLink = props => <NavLink className="mb-1" {...props} />
+const SideNavLink = props => <NavLink className="mb-2" {...props} />
