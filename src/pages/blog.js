@@ -29,7 +29,7 @@ export default (props) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___publish_date], order: DESC }) {
       edges {
         node {
           excerpt
@@ -37,8 +37,8 @@ export const query = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM D, YYYY")
-            publish_title
+            publish_date(formatString: "MMMM D, YYYY")
+            title
           }
         }
       }
