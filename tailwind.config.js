@@ -1,16 +1,7 @@
 module.exports = {
   theme: {
     fontFamily: {
-      hand: [
-        "Caveat",
-        "system-ui",
-        "-apple-system",
-        "BlinkMacSystemFont",
-        "Segoe UI",
-        "Roboto",
-        "Helvetica Neue",
-        "sans-serif",
-      ],
+      hand: ["Caveat", "cursive"],
     },
   },
   variants: {

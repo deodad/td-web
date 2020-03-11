@@ -5,9 +5,9 @@ import NavLink from "./nav-link"
 
 const postItClasses = [
   "block",
-  "pl-3 pr-5 py-2",
+  "pl-3 pr-5 py-1",
   "mb-3 -mr-1",
-  "text-left",
+  "text-left text-lg",
   "font-hand font-bold",
   "text-blue-700",
   "rounded-l-sm",
