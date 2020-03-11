@@ -4,7 +4,7 @@ import TopNav from "./top-nav"
 
 export default ({ children }) => {
   return (
-    <div className="font-sans max-w-screen-xl m-auto flex flex-col md:flex-row p-4 md:p-6 lg:p-8">
+    <div className="font-sans max-w-screen-xl m-auto flex flex-col md:flex-row mb-4 p-4 md:p-6 lg:p-8">
       <div className="md:hidden flex-none mb-6">
         <TopNav />
       </div>
