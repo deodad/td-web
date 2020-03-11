@@ -11,7 +11,7 @@ sections:
   match: "**/*.md"
   new_doc_ext: md
   templates:
-  - post
+  - blog-post
 - type: document
   path: src/data/bio.json
   label: Bio
