@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const values = [...Array(20).keys()].map(i => i + 24)
 
@@ -14,6 +15,8 @@ export default () => {
 
   return (
     <Layout>
+      <SEO title="Coffee" />
+
       <h1>Coffee</h1>
 
       <table>

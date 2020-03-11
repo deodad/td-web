@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const novels = [
   { title: "Middlesex", author: "Jeffery Eugenides" },
@@ -27,6 +28,8 @@ const collections = [
 
 export default () => 
   <Layout>
+    <SEO title="Reading Lists" />
+
     <h1>Reading lists</h1>
 
     <p>

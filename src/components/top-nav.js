@@ -1,6 +1,5 @@
 import React, { useState, useLayoutEffect } from "react"
 import classnames from "classnames"
-import useWindowScroll from "@react-hook/window-scroll"
 import NavLink from "./nav-link"
 
 export default () => {
@@ -12,9 +11,6 @@ export default () => {
       document.body.style.setProperty("overflow-y", isOpen ? "hidden" : "auto"),
     [isOpen]
   )
-  
-  const scrollY = useWindowScroll(30)
-  const buttonClass = { "bg-white rounded-sm shadow-sm": scrollY !== 0 }
 
   return (
     <header className="flex flex-between items-center md:hidden">
@@ -22,15 +18,9 @@ export default () => {
         Tony D'Addeo
       </NavLink>
       <button
-        className={classnames("fixed right-0 mt-1 mr-2 p-2", buttonClass)}
+        className="fixed right-0 block w-8 h-6 bg-yellow-300 rounded-l-sm shadow"
         onClick={() => setIsOpen(true)}
-      >
-        <div className="flex flex-col justify-between w-4 h-4">
-          <div className="bg-black" style={{ height: ".15rem" }}></div>
-          <div className="bg-black" style={{ height: ".15rem" }}></div>
-          <div className="bg-black" style={{ height: ".15rem" }}></div>
-        </div>
-      </button>
+      ></button>
       <SideNav open={isOpen} close={() => setIsOpen(false)} />
     </header>
   )
@@ -40,11 +30,9 @@ const SideNav = ({ open, close }) => {
   const openClass = { hidden: !open }
 
   return (
-    <div className={classnames("fixed inset-0", openClass)} onClick={close}>
-      <div
-        className="absolute inset-y-0 right-0 w-2/3 bg-white p-4 shadow-sm"
-        onClick={e => e.stopPropagation()}
-      >
+    <div className={classnames("fixed inset-0 flex", openClass)}>
+      <button className="flex-none w-1/3" onClick={close}></button>
+      <div className="flex-none w-2/3 bg-white p-4 shadow">
         <SideNavLink to="/about">About me</SideNavLink>
         <SideNavLink to="/reading-lists">Reading lists</SideNavLink>
         <SideNavLink to="/blog">Blog</SideNavLink>
