@@ -1,6 +1,6 @@
 ---
 title: "Against Keurig"
-date: "2020-03-10"
+publish_date: "2020-03-10"
 ---
 
 I remember the first time I used a Keurig. It was magic.
