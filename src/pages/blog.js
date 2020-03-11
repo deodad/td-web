@@ -17,7 +17,7 @@ export default (props) => {
               </Link>
 
               <span className="ml-3 text-sm text-gray-600">
-                {node.frontmatter.date}
+                {node.frontmatter.publish_date}
               </span>
             </li>
           ))
@@ -38,7 +38,7 @@ export const query = graphql`
           }
           frontmatter {
             date(formatString: "MMMM D, YYYY")
-            title
+            publish_title
           }
         }
       }
