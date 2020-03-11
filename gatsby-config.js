@@ -9,14 +9,16 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: "gatsby-plugin-webfonts",
       options: {
-        fonts: [
-          {
-            family: 'Caveat',
-            variants: [`400`, `700`]
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: 'Caveat',
+              variants: ['700'],
+            },
+          ],
+        },
       },
     },
     {
