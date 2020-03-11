@@ -1,8 +1,8 @@
 ---
-title: "How To Learn About Wine"
-publish_date: "2019-09-12"
----
+title: How To Learn About Wine
+publish_date: 2019-09-12
 
+---
 Wine is an incredible thing but the culture around it can suck. I was fortunate to have some exposure to it early in life working when I worked at a wine company but it wasn't until later that I actually started to learn more about it.
 
 I don't like to make a project out of things that should be enjoyable. I do like to learn and appreciate the finer things in life. Here's my tips for how to learn about wine without making it into a pissing contest:
@@ -27,25 +27,23 @@ When you drink a wine you like take a minute to look up the grapes, region or wi
 
 ### Drink with friends.
 
-Drinking with friends is more fun. It's also more cost effective and can multiply your exposure. If you spend $20 but get to try 4 different wines it's a multiplier on your tasting per dollar. You'll also have people to talk about the wine with, learn about what they've been drinking, pick up tasting notes.
+Drinking with friends is more fun. It's also more cost effective and can multiply your exposure. If you spend $20 but get to try 4 different wines it's a multiplier on your tastings per dollar. You'll also have people to talk about the wine with, learn about what they've been drinking, pick up tasting notes.
 
 ### Learn to taste wine.
 
-The simplest way to get better at picking out tasting notes is the start with having an idea of what tasting notes you are looking for, i.e. memorize all the possible tasting notes (dark fruit, red fruit, floral, citrus, herb) and then run through them in your mind as you taste and smell and different ones will jump out.
-
-Wine can be expensive. And because it mostly comes in 750 ml bottles and doesn't keep for long after opening it's not easy to just have a single glass.
+The simplest way to get better at picking out tasting notes is the start with the idea of what tasting notes you are looking for, i.e. memorize all the possible tasting notes (dark fruit, red fruit, floral, citrus, herb) and then run through them in your mind as you taste and smell and different ones will jump out.
 
 ### Learn some jargon.
 
 No one outside a field enjoys hearing field-specific jargon, but learning it is inevitable. Here's an example:
 
-*Terrior*, in french "land", refers to all the environmental factors that influence a specific crop. These factors include climate, soil composition, geological features and even farming practices. Together these form a certain "character" that will be expressed by the wine. The concept of terrior has been adopted in the understanding of other artisnal crops as well such as coffee, cocoa, hops, agave, cannabis and tea.
+_Terrior_, in french "land", refers to all the environmental factors that influence a specific crop. These factors include climate, soil composition, geological features and even farming practices. Together these form a certain "character" that will be expressed by the wine. The concept of terrior has been adopted in the understanding of other artisnal crops as well such as coffee, cocoa, hops, agave, cannabis and tea.
 
 In order to not look like an ass try not to use it unless the people you are with are familiar.
 
 ### Drink what you like.
 
-It's easy to fool yourself into always drinking "better" (read: more expensive) wines. Exploration is great but when you find a great value you love it's time to exploit. This will ensure you drink more wine that you love and also keep you off the treadmill of hedonism and full of gratitude for the fact you're drinking better wine than the kings of yore.
+It's easy to fool yourself into always drinking "better" (read: more expensive) wines. Exploration is great but when you find a great value you love it's time to exploit. This will ensure you drink more wine that you love and also keeps you off the treadmill of hedonism and full of gratitude for the fact you're drinking better wine than the kings of yore.
 
 ### Have fun.
 
