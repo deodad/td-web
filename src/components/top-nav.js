@@ -1,5 +1,6 @@
 import React, { useState, useLayoutEffect } from "react"
 import classnames from "classnames"
+import useWindowScroll from "@react-hook/window-scroll"
 import NavLink from "./nav-link"
 
 export default () => {
@@ -7,20 +8,27 @@ export default () => {
 
   // Prevent scrolling when the side nav is open
   useLayoutEffect(
-    () => (document.body.style.setProperty("overflow-y", isOpen ? "hidden" : "auto")),
+    () =>
+      document.body.style.setProperty("overflow-y", isOpen ? "hidden" : "auto"),
     [isOpen]
   )
+  
+  const scrollY = useWindowScroll(30)
+  const buttonClass = { "bg-white rounded-sm shadow-sm": scrollY !== 0 }
 
   return (
     <header className="flex flex-between items-center md:hidden">
       <NavLink to="/" className="text-xl flex-auto">
         Tony D'Addeo
       </NavLink>
-      <button className="fixed right-0 mt-1 mr-2 p-2 bg-white rounded-sm shadow-sm" onClick={() => setIsOpen(true)}>
+      <button
+        className={classnames("fixed right-0 mt-1 mr-2 p-2", buttonClass)}
+        onClick={() => setIsOpen(true)}
+      >
         <div className="flex flex-col justify-between w-4 h-4">
-          <div className="bg-black" style={{height: ".15rem"}}></div>
-          <div className="bg-black" style={{height: ".15rem"}}></div>
-          <div className="bg-black" style={{height: ".15rem"}}></div>
+          <div className="bg-black" style={{ height: ".15rem" }}></div>
+          <div className="bg-black" style={{ height: ".15rem" }}></div>
+          <div className="bg-black" style={{ height: ".15rem" }}></div>
         </div>
       </button>
       <SideNav open={isOpen} close={() => setIsOpen(false)} />
