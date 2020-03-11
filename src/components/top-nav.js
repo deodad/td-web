@@ -3,6 +3,17 @@ import classnames from "classnames"
 import { Link } from "gatsby"
 import NavLink from "./nav-link"
 
+const postItClasses = [
+  "block",
+  "pl-3 pr-5 py-2",
+  "mb-3 -mr-1",
+  "text-left",
+  "font-hand font-bold",
+  "text-blue-700",
+  "rounded-l-sm",
+  "shadow",
+]
+
 export default () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -28,7 +39,7 @@ export default () => {
         </NavLink>
         <div className="fixed right-0 flex flex-col">
           <button
-            className="block pl-2 pr-4 py-1 mb-2 -mr-1 bg-yellow-300 text-left font-hand text-blue-700 font-bold rounded-l-sm shadow"
+            className={classnames(postItClasses, "bg-yellow-300")}
             onClick={() => setIsOpen(!isOpen)}
           >
             Nav
@@ -56,9 +67,9 @@ const PostItTab = ({ to, open, color = "pink", children }) => (
   <Link
     to={to}
     className={classnames(
-      "block pl-2 pr-4 py-1 mb-2 font-hand font-bold text-blue-700 visited:text-blue-700 rounded-l-sm shadow no-underline",
+      postItClasses,
       { invisible: !open },
-      `bg-${color}-300`
+      `no-underline visited:text-blue-700 bg-${color}-300`
     )}
   >
     {children}

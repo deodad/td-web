@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 @tailwind base;
 
 html {
@@ -62,4 +63,6 @@ details[open] summary {
 }
 
 @tailwind components;
+/* purgecss end ignore*/
+
 @tailwind utilities;
