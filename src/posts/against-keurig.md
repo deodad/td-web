@@ -38,7 +38,7 @@ I use the Chemex because I like the way it looks but you can achieve the same qu
 
 It takes about 8 minutes, 4 to heat the water and 4 to brew, instead of the 3 minutes it takes for a Keurig. It takes 1 minute to rinse the glass instead of the 5 seconds to throw away the k-cup.
 
-I try to see the 8 minutes as a feature not a bug. A tiny ritual to enjoy. No looking at my phone. Smell the coffee. Stand up straight. Breath. Be in the here and now for a few minutes. I have the rest of my day for machines and slouching.
+I try to see the extra time as a feature not a bug. A tiny ritual to enjoy. No looking at my phone. Smell the coffee. Stand up straight. Breath. Be in the here and now for a few minutes. I have the rest of my day for machines and slouching.
 
 ### Final Word
 

@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-import classnames from "classnames"
+import NavLink from "./nav-link"
 
-export default ({ siteTitle }) => (
+export default () => (
   <header>
     <NavLink to="/" className="text-xl pb-5">
       Tony D'Addeo
@@ -21,8 +20,3 @@ export default ({ siteTitle }) => (
     </NavLink>
   </header>
 )
-
-const NavLink = ({ to, className, children }) =>
-  <Link to={to} className={classnames('block', 'visited:text-blue-600', className)}>
-    {children}
-  </Link>
