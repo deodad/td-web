@@ -1,48 +1,66 @@
-import React, { useState, useLayoutEffect } from "react"
+import React, { useState, useEffect } from "react"
 import classnames from "classnames"
+import { Link } from "gatsby"
 import NavLink from "./nav-link"
 
 export default () => {
   const [isOpen, setIsOpen] = useState(false)
 
-  // Prevent scrolling when the side nav is open
-  useLayoutEffect(
-    () =>
-      document.body.style.setProperty("overflow-y", isOpen ? "hidden" : "auto"),
-    [isOpen]
-  )
+  useEffect(() => {
+    if (isOpen) {
+      const listener = event => {
+        if (event.target.closest("#post-it-nav") === null) {
+          setIsOpen(false)
+        }
+      }
+
+      document.addEventListener("click", listener)
+
+      return () => document.removeEventListener("click", listener)
+    }
+  }, [isOpen])
 
   return (
     <>
-      <header className="flex flex-between items-center md:hidden">
+      <header className="flex md:hidden">
         <NavLink to="/" className="text-xl flex-none">
           Tony D'Addeo
         </NavLink>
-        <button
-          className="fixed right-0 block w-10 h-8 bg-yellow-300 rounded-l-sm shadow"
-          onClick={() => setIsOpen(true)}
-        ></button>
-      </header>
+        <div className="fixed right-0 flex flex-col">
+          <button
+            className="block pl-2 pr-4 py-1 mb-2 -mr-1 bg-yellow-300 text-left font-hand text-blue-700 font-bold rounded-l-sm shadow"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            Nav
+          </button>
 
-      <SideNav open={isOpen} close={() => setIsOpen(false)} />
+          <PostItTab to="/about" open={isOpen}>
+            About
+          </PostItTab>
+          <PostItTab to="/reading-lists" open={isOpen}>
+            Reading
+          </PostItTab>
+          <PostItTab to="/blog" open={isOpen} color="blue">
+            Blog
+          </PostItTab>
+          <PostItTab to="/acknowledgements" open={isOpen} color="green">
+            Credits
+          </PostItTab>
+        </div>
+      </header>
     </>
   )
 }
 
-const SideNav = ({ open, close }) => {
-  const openClass = { hidden: !open }
-
-  return (
-    <div className={classnames("fixed inset-0 flex", openClass)}>
-      <button className="flex-none w-1/3" onClick={close}></button>
-      <div className="flex-none w-2/3 bg-white p-4 shadow text-lg">
-        <SideNavLink to="/about">About me</SideNavLink>
-        <SideNavLink to="/reading-lists">Reading lists</SideNavLink>
-        <SideNavLink to="/blog">Blog</SideNavLink>
-        <SideNavLink to="/acknowledgements">Acknowledgements</SideNavLink>
-      </div>
-    </div>
-  )
-}
-
-const SideNavLink = props => <NavLink className="mb-2" {...props} />
+const PostItTab = ({ to, open, color = "pink", children }) => (
+  <Link
+    to={to}
+    className={classnames(
+      "block pl-2 pr-4 py-1 mb-2 font-hand font-bold text-blue-700 visited:text-blue-700 rounded-l-sm shadow no-underline",
+      { invisible: !open },
+      `bg-${color}-300`
+    )}
+  >
+    {children}
+  </Link>
+)
