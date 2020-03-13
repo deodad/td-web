@@ -34,7 +34,7 @@ p {
 }
 
 a {
-  @apply text-blue-600 underline;
+  @apply text-blue-700 underline;
 }
 
 li {
@@ -42,7 +42,7 @@ li {
 }
 
 a:visited {
-  @apply text-purple-600;
+  @apply text-purple-700;
 }
 
 details {
