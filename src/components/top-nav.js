@@ -45,16 +45,16 @@ export default () => {
             Nav
           </button>
 
-          <PostItTab to="/about" open={isOpen}>
+          <PostItTab to="/about" open={isOpen} className="bg-pink-300">
             About
           </PostItTab>
-          <PostItTab to="/reading-lists" open={isOpen}>
+          <PostItTab to="/reading-lists" open={isOpen} className="bg-pink-300">
             Reading
           </PostItTab>
-          <PostItTab to="/blog" open={isOpen} color="blue">
+          <PostItTab to="/blog" open={isOpen} className="bg-blue-300">
             Blog
           </PostItTab>
-          <PostItTab to="/acknowledgements" open={isOpen} color="green">
+          <PostItTab to="/acknowledgements" open={isOpen} className="bg-green-300">
             Credits
           </PostItTab>
         </div>
@@ -63,13 +63,14 @@ export default () => {
   )
 }
 
-const PostItTab = ({ to, open, color = "pink", children }) => (
+const PostItTab = ({ to, open, className, children }) => (
   <Link
     to={to}
     className={classnames(
       postItClasses,
       { invisible: !open },
-      `no-underline visited:text-blue-700 bg-${color}-300`
+      "no-underline visited:text-blue-700",
+      className
     )}
   >
     {children}
