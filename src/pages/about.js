@@ -1,13 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-export default () => (
+export default ({ data }) => (
   <Layout>
     <SEO title="About Tony" />
 
     <h1>About me</h1>
+
+    <div className="ml-4 mb-3 w-1/3 float-right">
+      <Img fluid={data.file.childImageSharp.fluid} className="shadow-inner" caption="Me and a tower I built" />
+
+      <div className="px-1 pt-3 font-hand text-center">
+        Me with a chess piece tower
+      </div>
+    </div>
 
     <h2>Shorter Version</h2>
 
@@ -23,7 +32,7 @@ export default () => (
     <p>
       I'm learning to stop conceiving life as project and just live where I'm at
       today. Ambition comes natural to me, I've always dreamed about
-      contributing something great to the world, but I want to prioritize being
+      contributing something great to the world, but lately I'm focusing on being
       at peace with my self, my daily life, and the people I love. In many ways
       I think (and am hoping) the latter is a good path to former.
     </p>
@@ -117,3 +126,15 @@ export default () => (
     </p>
   </Layout>
 )
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "me.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 300, maxHeight: 480) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

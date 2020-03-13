@@ -37,7 +37,7 @@ export default () => {
         <NavLink to="/" className="text-xl flex-none">
           Tony D'Addeo
         </NavLink>
-        <div className="fixed right-0 flex flex-col">
+        <div className="fixed right-0 flex flex-col z-50">
           <button
             className={classnames(postItClasses, "bg-yellow-300")}
             onClick={() => setIsOpen(!isOpen)}
