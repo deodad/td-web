@@ -21,20 +21,18 @@ export default () => (
         summary="Exploring the world of architecture and urban design"
       >
         <p>
-          Ideally, the places we inhabit would be shaped by the patterns of our lives. More often than not it's the other way around.
-          The places we inhabit are shaped by the patterns of our lives
-        </p>
-        <p>
           After reading Simon Sarris's{" "}
           <a href="https://medium.com/@simon.sarris/designing-a-new-old-home-part-1-cf298b58ed41">
             Designing a New Old Home
           </a>{" "}
           I started thinking more about how my own home shapes and reflects the
-          patterns of my daily life. This lead me to start exploring 
+          patterns of my daily life, and from there how the design of our cities
+          interacts with questions of economy, health, sustainability and
+          aesthetics.
         </p>
         <p>
-          The design of our homes, buildings, towns and cities is relevant to
-          questions of economy, health, sustainability and aesthetics.
+          Ideally, the places we inhabit would be shaped to the patterns of our
+          lives. More often than not it's the other way around.
         </p>
         <PersistentDetails
           id="059bf2e57c9b"
