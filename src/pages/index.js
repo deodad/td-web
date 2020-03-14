@@ -21,12 +21,16 @@ export default () => (
         summary="Exploring the world of architecture and urban design"
       >
         <p>
-          This thread started for me at the beginning of 2020 when I read Simon
-          Sarris's{" "}
+          Ideally, the places we inhabit would be shaped by the patterns of our lives. More often than not it's the other way around.
+          The places we inhabit are shaped by the patterns of our lives
+        </p>
+        <p>
+          After reading Simon Sarris's{" "}
           <a href="https://medium.com/@simon.sarris/designing-a-new-old-home-part-1-cf298b58ed41">
             Designing a New Old Home
           </a>{" "}
-          .
+          I started thinking more about how my own home shapes and reflects the
+          patterns of my daily life. This lead me to start exploring 
         </p>
         <p>
           The design of our homes, buildings, towns and cities is relevant to
@@ -37,10 +41,6 @@ export default () => (
           summary="Interesting books I've found on the space"
         >
           <ul className="list-disc ml-8">
-            <li>
-              <span className="italic">Timeless Way of Building</span> by
-              Christopher Alexander
-            </li>
             <li>
               <span className="italic">Timeless Way of Building</span> by
               Christopher Alexander

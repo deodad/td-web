@@ -42,4 +42,4 @@ I try to see the extra time as a feature not a bug. A tiny ritual to enjoy. No l
 
 ### Note to Self
 
-I'm adding this section as a remembrance to myself to not be hip or smug. Keurigs are fine. I used one for many years and loved it. There are plenty of places in my life where someone could point out a better way (in accordance with their current value system of course) and I would go "yeah I don't care about that have fun wasting your precious thoughts on that inconsequential detail", and we'd both be justified.
+I'm adding this section as a remembrance to myself to not be hip or smug. Keurigs are fine. I used one for many years and loved it. There are plenty of places in my life where someone could point out a better way (in accordance with their current value system of course) and I would go "yeah I don't care and like my way have fun wasting your precious thoughts on that inconsequential detail", and we'd both be justified.

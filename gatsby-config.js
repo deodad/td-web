@@ -43,9 +43,9 @@ module.exports = {
             resolve: "gatsby-remark-classes",
             options: {
               classMap: {
-                "list[ordered=true]": "list-decimal list-inside",
-                "list[ordered=false]": "list-disc list-inside",
-                listItem: "mb-3",
+                "list[ordered=true]": "list-decimal list-inside ml-3 mb-3",
+                "list[ordered=false]": "list-disc list-inside ml-3 mb-3",
+                listItem: "mb-1",
               },
             },
           },
