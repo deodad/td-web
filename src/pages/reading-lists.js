@@ -10,7 +10,7 @@ const novels = [
   { title: "Wolf Hunt", author: "Ivaylo Petrov" }
 ]
 
-const books = [
+const nonFiction = [
   { title: "Antifragile", author: "Nassim Nicholas Taleb" },
   { title: "Things Hidden Since the Foundatoin of the World", author: "Rene Girard" },
   { title: "Walden", author: "Henry David Thoreau" },
@@ -26,7 +26,13 @@ const collections = [
   { title: "Ficciones", author: "Jorge Luis Borges" }
 ]
 
-export default () => 
+const food = [
+  { title: "The Food Lab", author: "J. Kenji López-Alt" },
+  { title: "Flour Water Salt Yeast", author: "Ken Forkish" },
+  { title: "4 Hour Chef", author: "Tim Ferris" },
+]
+
+export default () =>
   <Layout>
     <SEO title="Reading Lists" />
 
@@ -40,13 +46,16 @@ export default () =>
     <BookList books={novels} />
 
     <h3 className="mt-5">Non-Fiction</h3>
-    <BookList books={books} />
+    <BookList books={nonFiction} />
 
     <h3 className="mt-5">Collections</h3>
     <BookList books={collections} />
 
+    <h3 className="mt-5">Food</h3>
+    <BookList books={food} />
+
     <div className="mt-8">
-      Let me know if you have a suggestion for something I'd probably like.
+      Let me know if you have a suggestion that you think I would enjoy.
     </div>
  </Layout>
 
